@@ -77,7 +77,7 @@
             bindings = <
 &trans     &kp ESC    &kp LEFT_GUI  &trans   &trans                       &kp HOME  &kp PG_DN         &kp PG_UP          &kp END    &trans
 &kp LCTRL  &kp LSHFT  &kp LEFT_ALT  &kp TAB  &trans  &trans      &trans   &kp LEFT  &kp DOWN          &kp UP             &kp RIGHT  &kp K_APP
-&trans     &trans     &kp F2        &trans   &trans  &trans      &trans   &trans    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans     &trans
+&trans     &trans     &kp F2        &trans   &trans  &trans      &trans   &trans    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))  &trans     &trans
 &trans     &trans     &trans        &trans   &trans  &trans      &kp DEL  &trans                                                    &trans
             >;
         };
