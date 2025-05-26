@@ -37,10 +37,10 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W         &kp E         &kp R               &kp T                                                       &kp Y        &kp U    &lt 6 I      &kp O    &kp P
-&mt LCTRL A  &kp S         &kp D         &kp F               &kp G        &trans                          &lt 7 C_MUTE   &kp H        &kp J    &kp K        &kp L    &mt RCTRL MINUS
-&mt LSHFT Z  &kp X         &kp C         &kp V               &kp B        &kp LG(LS(S))                   &kp LG(TAB)    &kp N        &lt 2 M  &lt 3 COMMA  &kp DOT  &mt RSHIFT SLASH
-&kp LCTRL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &lt 3 SPACE  &lt 5 INT_KATAKANAHIRAGANA      &kp BACKSPACE  &lt 1 ENTER                                 &kp UNDER
+&kp Q        &kp W         &kp E         &kp R               &kp T                                                       &kp Y        &kp U    &lt 6 I    &kp O    &kp P
+&mt LCTRL A  &kp S         &kp D         &kp F               &kp G        &trans                          &lt 7 C_MUTE   &kp H        &kp J    &kp K      &kp L    &mt RCTRL MINUS
+&mt LSHFT Z  &kp X         &kp C         &kp V               &kp B        &kp LG(LS(S))                   &kp LG(TAB)    &kp N        &lt 2 M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
+&kp LCTRL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &lt 3 SPACE  &lt 5 INT_KATAKANAHIRAGANA      &kp BACKSPACE  &lt 4 ENTER                               &lt 5 UNDER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -66,10 +66,10 @@
 
         NUM {
             bindings = <
-&kp SLASH  &kp N7        &kp N8  &kp N9  &kp MINUS                                &trans  &trans    &kp UP_ARROW  &trans     &trans
-&kp TAB    &kp N4        &kp N5  &kp N6  &kp JIS_PLUS  &trans             &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&kp N0     &kp N1        &kp N2  &kp N3  &kp DOT       &kp JIS_EQUAL      &trans  &trans  &trans    &trans        &trans     &trans
-&trans     &kp NUMBER_0  &trans  &trans  &trans        &trans             &trans  &trans                                     &trans
+&kp SLASH  &kp N7        &kp N8  &kp N9  &kp MINUS                                &trans  &trans                  &kp UP_ARROW             &trans     &trans
+&kp TAB    &kp N4        &kp N5  &kp N6  &kp JIS_PLUS  &trans             &trans  &trans  &kp LEFT                &kp DOWN                 &kp RIGHT  &trans
+&kp N0     &kp N1        &kp N2  &kp N3  &kp DOT       &kp JIS_EQUAL      &trans  &trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans     &trans
+&trans     &kp NUMBER_0  &trans  &trans  &trans        &trans             &trans  &trans                                                              &trans
             >;
         };
 
@@ -86,7 +86,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
