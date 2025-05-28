@@ -40,7 +40,7 @@
 &kp Q        &kp W         &kp E         &kp R               &kp T                                                       &kp Y        &kp U    &lt 6 I    &kp O    &kp P
 &mt LCTRL A  &kp S         &kp D         &kp F               &kp G        &trans                          &lt 7 C_MUTE   &kp H        &kp J    &kp K      &kp L    &mt RCTRL MINUS
 &mt LSHFT Z  &kp X         &kp C         &kp V               &kp B        &kp LG(LS(S))                   &kp LG(TAB)    &kp N        &lt 2 M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
-&kp LCTRL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &lt 5 SPACE  &lt 3 INT_KATAKANAHIRAGANA      &kp BACKSPACE  &lt 4 ENTER                               &lt 5 JIS_KANA
+&kp LCTRL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_MUHENKAN  &lt 5 SPACE  &lt 3 INT_KATAKANAHIRAGANA      &kp BACKSPACE  &lt 4 ENTER                               &lt 5 kp JIS_KANA
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
