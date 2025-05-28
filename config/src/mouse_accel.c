@@ -13,7 +13,6 @@ static void adjust_mouse_speed(struct zmk_sensor_input_event *ev) {
     else if (size >  3) mul = 0.5f;
     else if (size >  2) mul = 0.2f;
     else if (size >  1) mul = 0.08f;
-    else                mul = 3.00f;
 
     ev->data.relative.x = CLAMP(ev->data.relative.x * mul, -127, 127);
     ev->data.relative.y = CLAMP(ev->data.relative.y * mul, -127, 127);
