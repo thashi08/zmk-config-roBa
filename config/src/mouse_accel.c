@@ -7,7 +7,7 @@
 static void adjust_mouse_speed(struct zmk_sensor_input_event *ev) {
     int16_t size = ABS(ev->data.relative.x) + ABS(ev->data.relative.y);
     float mul = 0.6f;
-    if      (size > 60) mul = 0.00j6f;
+    if      (size > 60) mul = 0.006f;
     else if (size > 30) mul = 0.005f;
     else if (size >  5) mul = 0.004f;
     else if (size >  3) mul = 0.003f;
