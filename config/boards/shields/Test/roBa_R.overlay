@@ -31,6 +31,19 @@
     };
 };
 
+&zip_temp_layer {
+    require-prior-idle-ms = <200>;
+};
+
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 5 10000>;
+    };
+};
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
