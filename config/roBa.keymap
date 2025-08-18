@@ -39,7 +39,7 @@
 
 #define MOUSE 5
 
-/{
+/ {
     macros {
         exit_AML: exit_AML {
             compatible = "zmk,behavior-macro";
