@@ -32,6 +32,10 @@
         };
     };
 
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 5 10000>;
+};
+
     keymap {
         compatible = "zmk,keymap";
 
