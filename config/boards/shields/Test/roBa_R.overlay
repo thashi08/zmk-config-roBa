@@ -58,16 +58,19 @@
     excluded-positions = <
         18 // J
         19 // K
-        20 // L
+        21 // ;
+        34 // Ctrl
     >;
 };
 
+/ {
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
         input-processors = <&zip_temp_layer 5 10000>;
     };
+};
 
 &zip_temp_layer {
     require-prior-idle-ms = <200>;
